@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="searchBar">
+                <input id="input" class="input" type="text">
+                <button onclick="fetchWeather()" class="btn"><img src="icons8-search-64.png" alt=""></button>
+            </div>
+            <div class="flex">
+                <img src="icons8-location-48.png" alt="">
+            <div id="city" class="city">Jamshedpur</div>
+            </div>
+            <div id="temp" class="temp">32 °C</div>
+            <div id="condition" class="cond">Mostly Cloudy</div>
+            <div class="flex">
+                <img src="icons8-wind-100.png" alt="">
+                <div id="wind" class="wind">12 Km/Hr</div>
+            </div>
+            <div class="flex">
+                <img src="icons8-rain-100.png" alt="">
+                <div class="rain">13 %</div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
